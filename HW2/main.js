@@ -76,12 +76,12 @@ HW2trace3.textfont=
         size:20
 };//注意要先放完數值在顯示
 
-let data =[];
-data.push(HW2trace1);
-data.push(HW2trace2);
-data.push(HW2trace3);
+let HW2data =[];
+HW2data.push(HW2trace1);
+HW2data.push(HW2trace2);
+HW2data.push(HW2trace3);
 
-let layout={
+let HW2layout={
     margin: { t: 25},
     
     barmode:'stack',//長條圖堆疊
@@ -92,4 +92,4 @@ let layout={
 
 
 
-Plotly.newPlot(myGraphHW2,data,layout);
+Plotly.newPlot(myGraphHW2,HW2data,HW2layout);

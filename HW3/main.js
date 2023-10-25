@@ -73,18 +73,21 @@ HW3trace3.hole =0.5;
 HW3trace4.hole =0.5;//中間挖洞
 
 
-let data =[];
-data.push(HW3trace1);
-data.push(HW3trace2);
-data.push(HW3trace3);
-data.push(HW3trace4);
+let HW3data =[];
+HW3data.push(HW3trace1);
+HW3data.push(HW3trace2);
+HW3data.push(HW3trace3);
+HW3data.push(HW3trace4);
 
-let layout={
-    margin: { t: 20,l:20,},
+let HW3layout={
+    margin: { t: 55,l:20,},
     
     grid:{rows:2,columns:2},//展示區域格線
 
-    title:'6到9月支出情形'
+    title:'6到9月支出情形',
+    titlefont:{
+        size:20
+    },
 };//標題 軸數值等https://plotly.com/javascript/reference/layout/
 
 
@@ -97,4 +100,4 @@ let layout={
 
 
 
-Plotly.newPlot(HW3myGraph,data,layout);
+Plotly.newPlot(HW3myGraph,HW3data,HW3layout);
