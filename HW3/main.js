@@ -80,7 +80,7 @@ HW3data.push(HW3trace3);
 HW3data.push(HW3trace4);
 
 let HW3layout={
-    margin: { t: 55,l:20,},
+    margin: { t: 55,l:20},
     
     grid:{rows:2,columns:2},//展示區域格線
 

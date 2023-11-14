@@ -1,23 +1,40 @@
-let animals_Taipei_Zoo=[
-    {
-        "name":"lion","count":20
+let total_111=[
+    {   
+        "year":111,"name":"out","count":142182
     },
     {
-        "name": "tiger","count": 14
-    },
-    {
-        "name": "monkey","count": 23
+        "year":111,"name": "in","count":127025
     }
 ];
-
-let animals_Taoyuan_Zoo=[
+let total_110=[
     {
-        "name":"lion","count":12
+        "year":110,"name":"out","count":125016
     },
     {
-        "name": "tiger","count": 18
+        "year":110,"name": "in","count":106970
+    }
+];
+let total_109=[
+    {
+        "year":109,"name":"out","count":101987
     },
     {
-        "name": "monkey","count": 25
+        "year":109,"name": "in","count":84606
+    }
+];
+let total_108=[
+    {
+        "year":108,"name":"out","count":101819
+    },
+    {
+        "year":108,"name": "in","count":88354
+    }
+];
+let total_107=[
+    {
+        "year":107,"name":"out","count":100691
+    },
+    {
+        "year":107,"name": "in","count":85871
     }
 ];
