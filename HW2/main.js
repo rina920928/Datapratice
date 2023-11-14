@@ -56,6 +56,7 @@ let HW2data =[];
 HW2data.push(HW2trace1);
 HW2data.push(HW2trace2);
 
+
 let HW2layout={
     margin: { t: 40},
     
